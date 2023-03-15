@@ -19,9 +19,11 @@
 }
 
 #three{
-    position: fixed;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
     top: 20px;
-    left: 20px;
+    left: 20px; 
     background-color: fuchsia;
 
 }
