@@ -1,0 +1,24 @@
+/*Menu*/
+nav{
+    background-color: rgb(201, 134, 198);
+    width: auto;
+    height: 50px;
+    word-spacing: 50px; /*Espaio entre palabra*/
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+/*ilumina lo que selcciona el cursor*/
+a:active{
+    background-color: blue;
+    border-radius: 20px; /*borde redondito*/
+    padding: 15px;
+
+}

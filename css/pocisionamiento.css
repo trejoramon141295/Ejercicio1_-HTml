@@ -1,0 +1,35 @@
+.box{
+    /*Display controla estructuras*/
+    display: inline-block;
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+
+}
+
+/*Id con #*/
+#two{
+    /*position 5 propiedades : static, absolute, relative fixed, sticky*/
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+
+}
+
+#three{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: fuchsia;
+
+}
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: scroll; /*De que manera ver la pagina: visible, auto, hidden y scroll*/
+    padding-left: 150px;
+
+}
