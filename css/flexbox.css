@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-around;*/
+    align-content: center;   
+}
+#one{
+    background-color: crimson;
+    width: 200px;/*tamaños Iniciales*/
+    height: 200px;
+    flex-grow: 8;/*que tanto va a crecer*/
+}
+#two{
+    background-color: darkorchid;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;/*No se va a encojes*/
+}
+#three{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    flex-basis: 20%;/*longitud de mi elemento*/
+}
